@@ -14,32 +14,35 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/etUsuario"
+            android:id="@+id/et_nombreProd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="48sp"
             android:inputType="text"
-            android:hint="Nombre del producto"/>
+            android:hint="@string/nombre_del_producto"/>
 
         <EditText
-            android:id="@+id/etPais"
+            android:id="@+id/et_Precio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:hint="Precio"/>
+            android:minHeight="48sp"
+            android:hint="@string/precio"/>
 
         <EditText
             android:id="@+id/etExistencia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:hint="Existencia"/>
+            android:minHeight="48sp"
+            android:hint="@string/existencia"/>
 
         <Button
-            android:id="@+id/btnAddUpdate"
+            android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="agregar" />
+            android:text="@string/agregar" />
 
 
     </LinearLayout>

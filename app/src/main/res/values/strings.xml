@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EvaluacionConexionDB</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="precio">Precio</string>
+    <string name="existencia">Existencia</string>
+    <string name="agregar">agregar</string>
 </resources>
