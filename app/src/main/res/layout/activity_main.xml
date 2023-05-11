@@ -48,5 +48,17 @@
     </LinearLayout>
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andrea González -  000032586"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blanca Rosales -  000031820"
+        android:textSize="20sp"/>
+
+
 
 </LinearLayout>
